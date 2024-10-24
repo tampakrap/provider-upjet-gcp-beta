@@ -6,9 +6,9 @@
 # ====================================================================================
 # Setup Project
 
-PROVIDER_NAME := gcp
-PROJECT_NAME := provider-$(PROVIDER_NAME)
-PROJECT_REPO := github.com/upbound/$(PROJECT_NAME)
+PROVIDER_NAME := gcp-beta
+PROJECT_NAME := provider-upjet-$(PROVIDER_NAME)
+PROJECT_REPO := github.com/tampakrap/$(PROJECT_NAME)
 
 export TERRAFORM_VERSION := 1.5.5
 export TERRAFORM_PROVIDER_VERSION := 5.39.0

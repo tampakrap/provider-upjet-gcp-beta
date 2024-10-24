@@ -20,7 +20,7 @@
 //go:generate bash -c "find ../cmd/provider -type d -maxdepth 1 -mindepth 1 -empty -delete"
 
 // Scrape metadata from Terraform registry
-//go:generate go run github.com/crossplane/upjet/cmd/scraper -n hashicorp/terraform-provider-google -r ../.work/terraform-provider-google/website/docs/r -o ../config/provider-metadata.yaml --prelude-xpath "//text()[contains(., \"subcategory\")]" --resource-prefix google
+//go:generate go run github.com/crossplane/upjet/cmd/scraper -n hashicorp/terraform-provider-google-beta -r ../.work/terraform-provider-google-beta/website/docs/r -o ../config/provider-metadata.yaml --prelude-xpath "//text()[contains(., \"subcategory\")]" --resource-prefix google
 
 // Run upjet generator
 //go:generate go run ../cmd/generator/main.go ..

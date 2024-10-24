@@ -11,7 +11,7 @@ Notably, this larger work combines with the following Terraform components,
 which are licensed under the Mozilla Public License 2.0 (see
 <https://www.mozilla.org/en-US/MPL/2.0/> or the individual projects listed
 below).
-<https://github.com/hashicorp/terraform-provider-google>
+<https://github.com/hashicorp/terraform-provider-google-beta>
 <https://github.com/hashicorp/terraform>
 <https://github.com/hashicorp/terraform-json>
 <https://github.com/hashicorp/terraform-plugin-sdk>

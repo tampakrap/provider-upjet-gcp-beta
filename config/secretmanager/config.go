@@ -5,7 +5,7 @@
 package secretmanager
 
 import (
-	"github.com/upbound/provider-gcp/config/common"
+	"github.com/tampakrap/provider-upjet-gcp-beta/config/common"
 
 	"github.com/crossplane/upjet/pkg/config"
 )

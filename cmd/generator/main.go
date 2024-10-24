@@ -17,7 +17,7 @@ import (
 	"github.com/crossplane/upjet/pkg/pipeline"
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/upbound/provider-gcp/config"
+	"github.com/tampakrap/provider-upjet-gcp-beta/config"
 )
 
 func main() {

@@ -20,12 +20,12 @@ const (
 	// KeyProject is the key for project in Terraform Provider Configuration
 	KeyProject = "project"
 	// SelfPackagePath is the golang path for this package.
-	SelfPackagePath = "github.com/upbound/provider-gcp/config/common"
+	SelfPackagePath = "github.com/tampakrap/provider-upjet-gcp-beta/config/common"
 
 	// ExtractResourceIDFuncPath holds the GCP resource ID extractor func name
-	ExtractResourceIDFuncPath = "github.com/upbound/provider-gcp/config/common.ExtractResourceID()"
-	ExtractProjectIDFuncPath  = "github.com/upbound/provider-gcp/config/common.ExtractProjectID()"
-	ExtractFolderIDFuncPath   = "github.com/upbound/provider-gcp/config/common.ExtractFolderID()"
+	ExtractResourceIDFuncPath = "github.com/tampakrap/provider-upjet-gcp-beta/config/common.ExtractResourceID()"
+	ExtractProjectIDFuncPath  = "github.com/tampakrap/provider-upjet-gcp-beta/config/common.ExtractProjectID()"
+	ExtractFolderIDFuncPath   = "github.com/tampakrap/provider-upjet-gcp-beta/config/common.ExtractFolderID()"
 	// VersionV1Beta1 is used for resources that meet the v1beta1 criteria
 	// here: https://github.com/upbound/arch/pull/33
 	VersionV1Beta1 = "v1beta1"

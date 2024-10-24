@@ -7,7 +7,7 @@ package logging
 import (
 	"github.com/crossplane/upjet/pkg/config"
 
-	"github.com/upbound/provider-gcp/config/common"
+	"github.com/tampakrap/provider-upjet-gcp-beta/config/common"
 )
 
 // Configure configures individual resources by adding custom
